@@ -1,0 +1,12 @@
+directories:
+  buildResources: .
+  output: dist
+
+npmRebuild: false
+
+files:
+  - index.js
+
+mac:
+  target: pkg
+  appId: com.example.electron-builder-test
